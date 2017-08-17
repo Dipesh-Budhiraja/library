@@ -7,6 +7,8 @@ struct Date
 {
     int d, m, y;
 };
+ 
+// To store number of days in all months from January to Dec.
 const int monthDays[12] = {31, 28, 31, 30, 31, 30,
                            31, 31, 30, 31, 30, 31};
  
@@ -55,8 +57,9 @@ int getDifference(Date dt1, Date dt2)
 }
 // CHECK ROLL NO IS NOT NULL, UNIQUE AND ISBN ID UNIQUE, find book by name, ids, author,
 // ADVANCE SEARCH
-// 	
-//	create report, and print
+// input validation and find function 
+//  
+// create report, and print
 // BOOK ID HASHER
 // Driver program
 int main()
